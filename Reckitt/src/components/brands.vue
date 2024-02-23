@@ -18,11 +18,6 @@
         </div>
         <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <div class=" flex justify-center items-center">
-                <img class="p-8 rounded-t-lg" width="80%" src="https://biofreeze.com/cdn/shop/files/BF_Pro_Logo.png?v=1639032667" alt="product image" />
-            </div>
-        </div>
-        <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <div class=" flex justify-center items-center">
                 <img class="p-8 rounded-t-lg" width="80%" src="https://1000logos.net/wp-content/uploads/2020/03/Strepsils-Logo.png" alt="product image" />
             </div>
         </div>
