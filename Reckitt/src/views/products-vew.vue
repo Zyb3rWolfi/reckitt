@@ -9,15 +9,21 @@
 </template>
 <script setup>
 import {useRoute } from 'vue-router';
-import {onMounted, onBeforeMount, ref} from 'vue';
+import {onMounted, onBeforeMount, ref, onUpdated} from 'vue';
+import footer from '../components/footer.vue';
 
 const route = useRoute();
 var productName = "";
+
+
+onUpdated(() => {
+    productName = route.path;
+    productName = productName.split('/')[2].toLocaleUpperCase()
+})
 
 onBeforeMount(() => {
     productName = route.path;
     productName = productName.split('/')[2].toLocaleUpperCase()
 })
-
 
 </script>

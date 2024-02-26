@@ -1,0 +1,242 @@
+{
+    "products": [
+        {
+            "brand": "strepsils",
+            "name": "Strepsils Sugar Free Strawberry Lozenges x 36",
+            "price": 5.49,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814686151479387530-69335400.jpg"
+        },
+        {
+            "brand": "strepsils",
+            "name": "Strepsils Sore Throat & Cough Lozenges x 24",
+            "price": 4.95,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814687401588587983-62367800.jpg"
+        },
+        {
+            "brand": "strepsils",
+            "name": "Strepsils Soothing Throat Spray 20ml",
+            "price": 6.29,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814690851602238825-61618100.jpg"
+        },
+        {
+            "brand": "strepsils",
+            "name": "Strepsils Honey & Lemon Lozenges x 24",
+            "price": 4.00,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814691271593415493-76499200.jpg"
+        },
+        {
+            "brand": "strepsils",
+            "name": "Strepsils Sore Throat Pain Relief Honey & Lemon Lozenges x 24",
+            "price": 4.00,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814681071588586744-61932200.jpg"
+        },
+        {
+            "brand": "strepsils",
+            "name": "Strepsils Extra Triple Action Blackcurrant Lozenges x 24",
+            "price": 4.95,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814682901479387766-28602000.jpg"
+        },
+        {
+            "brand": "strepsils",
+            "name": "Strepsils Original Lozenges x 16",
+            "price": 3.15,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814685661479387178-29902000.jpg"
+        },
+        {
+            "brand": "strepsils",
+            "name": "Strepsils Orange With Vitamin C 100mg Lozenges x 36",
+            "price": 4.95,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814685741479387470-55550600.jpg"
+        },
+
+        {
+            "brand": "optrex",
+            "name": "Optrex Bloodshot Eye / Red Eye Relief drops 10ml",
+            "price": 5.49,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814684761479402173-97888200.jpg"
+        },
+        {
+            "brand": "optrex",
+            "name": "Optrex Multi Action Eye Wash 100ml",
+            "price": 4.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814686141479401929-97815500.jpg"
+        },
+        {
+            "brand": "optrex",
+            "name": "Optrex Allergy 2% w/v Eye Drops 10ml",
+            "price": 5.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814682071586853512-01666500.jpg"
+        },
+        {
+            "brand": "optrex",
+            "name": "Optrex Sore Eye Drops 10ml",
+            "price": 5.49,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814684741479402029-67150600.jpg"
+        },
+
+                
+        {
+            "brand": "nurofen",
+            "name": "Nurofen Joint & Muscular Pain Medicated Plaster x 2",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814690481613137341-83099000.jpg"
+        },
+        {
+            "brand": "nurofen",
+            "name": "Nurofen Express Liquid Capsules 200mg",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814797001668168929-14541700.jpg"
+        },
+        {
+            "brand": "nurofen",
+            "name": "Nurofen For Children Orange Oral Suspension",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814797101668169442-03380200.jpg"
+        },
+        {
+            "brand": "nurofen",
+            "name": "Nurofen For Children Strawberry Oral Suspension",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814797151668169476-39735200.jpg"
+        },
+        {
+            "brand": "nurofen",
+            "name": "Nurofen Cold & Flu Tablets x 24",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814682111668169003-41978900.jpg"
+        },
+        {
+            "brand": "nurofen",
+            "name": "Nurofen Meltlets Lemon x 12",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814683491668168414-60615400.jpg"
+        },
+        {
+            "brand": "nurofen",
+            "name": "Nurofen Cold & Flu Relief Tablets x 16",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814688171614179001-84269000.jpg"
+        },
+        {
+            "brand": "nurofen",
+            "name": "Nurofen Cold & Flu Day & Night Tablets x 16",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814688201614179022-79203600.jpg"
+        },
+
+
+        {
+            "brand": "lemsip",
+            "name": "Lemsip Max Cold & Flu Sachets Lemon x 10",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814682261587115721-08954700.jpg"
+        },
+        {
+            "brand": "lemsip",
+            "name": "Lemsip Max Cold & Flu Capsules x 16",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814682871611232082-89834600.jpg"
+        },
+        {
+            "brand": "lemsip",
+            "name": "Lemsip Max Day & Night Cold & Flu Relief Capsules x 16",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814684991611304679-13984600.jpg"
+        },
+        {
+            "brand": "lemsip",
+            "name": "Lemsip Max All In One Cold & Flu Capsules x 16",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814686421611232029-83064700.jpg"
+        },
+        {
+            "brand": "lemsip",
+            "name": "Lemsip Cold & Flu Sachets Lemon x 10",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814680261587115614-69524600.jpg"
+        },
+
+        {
+            "brand": "gaviscon",
+            "name": "Gaviscon Infant Sachets",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814682241610370407-83925300.jpg"
+        },
+        {
+            "brand": "gaviscon",
+            "name": "Gaviscon Double Action Liquid Mint 150ml",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814685581480000494-65540100.jpg"
+        },
+        {
+            "brand": "gaviscon",
+            "name": "Gaviscon Double Action Liquid Aniseed 300ml",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814686081610625530-89270500.jpg"
+        },
+        {
+            "brand": "gaviscon",
+            "name": "Gaviscon Double Action Liquid Sachets",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814688141610625504-03894900.jpg"
+        },
+        {
+            "brand": "gaviscon",
+            "name": "Gaviscon Double Action Tablets x 24",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814689091610370425-23313700.jpg"
+        },
+        {
+            "brand": "bonjela",
+            "name": "Bonjela Soothing Teething Gel 15g",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814690301586354774-92512900.jpg"
+        },
+        {
+            "brand": "bonjela",
+            "name": "Bonjela Adult Gel 15g",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814693221585574375-80601700.jpg"
+        },
+        {
+            "brand": "bonjela",
+            "name": "Bonjela Junior Gel 15g",
+            "price": 3.99,
+            "description": "",
+            "image": "https://www.travelpharm.com/uploads/images/products/large/16814688221479917429-55565100.jpg"
+        }
+
+    ]
+}

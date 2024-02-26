@@ -2,6 +2,12 @@ import { createRouter, createWebHistory } from "vue-router";
 import home from "../views/home.vue"
 import productsView from '../views/products-vew.vue';
 import strepsils from '../components/strepsils.vue'
+import optrex from '../components/optrex.vue'
+import nurofen from '../components/nurofen.vue'
+import lemsip from '../components/lemsip.vue'
+import gaviscon from '../components/gaviscon.vue'
+import bonjela from '../components/bonjela.vue'
+
 
 const routes = [
     {
@@ -17,6 +23,26 @@ const routes = [
         {
             path: 'strepsils',
             component: strepsils,
+        },
+        {
+            path: 'optrex',
+            component: optrex,
+        },
+        {
+            path: 'nurofen',
+            component: nurofen,
+        },
+        {
+            path: 'lemsip',
+            component: lemsip,
+        },
+        {
+            path: 'gaviscon',
+            component: gaviscon,
+        },
+        {
+            path: 'bonjela',
+            component: bonjela,
         },
         
     ]

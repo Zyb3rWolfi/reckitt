@@ -1,6 +1,6 @@
 <template>
     <div class=" grid grid-cols-5 gap-5 mx-auto mt-10 justify-items-center">
-        <productCard v-for="i in strepsils" :product="i"></productCard>
+        <productCard v-for="i in optrex" :product="i"></productCard>
     </div>
 </template>
 
@@ -8,8 +8,8 @@
 import productCard from './productCard.vue';
 import json from '../assets/products.json';
 
-var strepsils = json.products.filter((product) => {
-    return product.brand.includes("strepsils")
+var optrex = json.products.filter((product) => {
+    return product.brand.includes("optrex")
 })
 
 </script>

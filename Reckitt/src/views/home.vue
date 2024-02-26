@@ -9,11 +9,9 @@
     </div>
     <featured></featured>
     <brands></brands>
-    <footercomp></footercomp>
 </template>
 <script setup>
 import featured from '../components/featured.vue';
 import brands from '../components/brands.vue';
-import footercomp from '../components/footer.vue';
 
 </script>
