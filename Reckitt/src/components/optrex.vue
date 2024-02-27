@@ -1,5 +1,5 @@
 <template>
-    <div class=" grid grid-cols-5 gap-5 mx-auto mt-10 justify-items-center">
+    <div class=" grid lg:grid-cols-5 sm:grid-cols-2 md:grid-cols-3 gap-5 mx-auto mt-10 justify-items-center">
         <productCard v-for="i in optrex" :product="i"></productCard>
     </div>
 </template>

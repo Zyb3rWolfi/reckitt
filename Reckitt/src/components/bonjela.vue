@@ -1,5 +1,5 @@
 <template>
-    <div class=" flex flex-cols-4 gap-5 mx-auto mt-10 justify-center">
+    <div class=" grid lg:grid-cols-5 sm:grid-cols-2 md:grid-cols-3 gap-5 mx-auto mt-10 justify-center">
         <productCard v-for="i in bonjela" :product="i"></productCard>
     </div>
 </template>

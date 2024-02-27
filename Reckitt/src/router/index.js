@@ -7,6 +7,7 @@ import nurofen from '../components/nurofen.vue'
 import lemsip from '../components/lemsip.vue'
 import gaviscon from '../components/gaviscon.vue'
 import bonjela from '../components/bonjela.vue'
+import productPage from '../views/product-page.vue'
 
 
 const routes = [
@@ -14,6 +15,11 @@ const routes = [
         path: '/',
         name: "home",
         component: home,
+    },
+    {
+        path: '/product/:id',
+        name: 'product',
+        component: productPage
     },
     {
         path: '/products/',
