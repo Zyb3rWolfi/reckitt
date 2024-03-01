@@ -79,8 +79,8 @@
         </div>
     </div>
     <div class=" flex mx-auto justify-items-center justify-center mt-10">
-        <button type="button" class=" min-w-38 max-w-38 text-white bg-gradient-to-t from-red-400 via-pink-400 to-pink-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">BUY NOW</button>
-        <button type="button" class=" min-w-38 text-white bg-gradient-to-t from-red-400 via-pink-400 to-pink-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">ADD TO BASKET</button>
+        <router-link :to="'/buy'" type="button" class=" min-w-38 max-w-38 text-white bg-gradient-to-t from-red-400 via-pink-400 to-pink-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">BUY NOW</router-link>
+        <router-link :to="'/basket'" @click="addToBasket" type="button" class=" min-w-38 text-white bg-gradient-to-t from-red-400 via-pink-400 to-pink-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">ADD TO BASKET</router-link>
 
     </div>
 </template>
@@ -101,5 +101,24 @@ onMounted(() => {
 onBeforeMount(() => {
     const token = route.params.id
 })
+
+function addToBasket() {
+    var storedItems = JSON.parse(localStorage.getItem('basket'));
+    if (storedItems == null) {
+        storedItems = [];
+    }
+
+    for (var i = 0; i < storedItems.length; i++) {
+        if (storedItems[i][0].name == product[0].name) {
+            storedItems[i][0].quantity += 1;
+            localStorage.setItem('basket', JSON.stringify(storedItems));
+            return;
+        }
+    }
+
+    storedItems.push(product);
+    localStorage.setItem('basket', JSON.stringify(storedItems));
+    console.log(storedItems);
+}
 
 </script>

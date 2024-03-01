@@ -6,33 +6,18 @@
         </div>
     </div>
 
-    <div class=" grid mx-auto grid-cols-3 justify-center mt-12">
-
+    <div class=" grid mx-auto grid-cols-3 justify-center mt-12 ml-4 mr-4">
         <div class=" col-start-1 col-span-2">
-            <div class="max-w-4xl p-6 bg-white border col-span-2 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            
-                <div class="grid grid-cols-3 gap-5">
-                    <div class="col-start-1">
-                        <img src="https://www.peakpharmacy.co.uk/uploads/images/products/large/16814797001668168929-14541700.jpg" alt="Mountain" class="h-12 sm:h-48 object-cover">
-                    </div>
-                    <div class="col-start-2">
-                        <h1 class="text-xl font-medium text-gray-800 dark:text-white">Mountain</h1>
-                        <p class="mt-2 text-gray-600 dark:text-gray-400">IN STOCK</p>
-                    </div>
-                    <div class=" col-start-3 justify-end justify-items-end">
-                        <p class=" text-end">£3.30</p>
-                    </div>
-            
-                </div>
-            
-            </div>
-
+            <basketCardVue v-for="i in storedItems" :product="i"></basketCardVue>
+        
         </div>
         <div class=" col-start-3">
             <div class="max-w-4xl p-6 bg-white border col-span-2 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             
-                <p>Subtotal: £10.00</p>
-                <button type="submit" class=" mt-12 pl-12 pr-12 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Checkout</button>
+                <p class="text-xl"> <strong>Subtotal: £{{price}}</strong></p>
+                <div class="flex mx-auto justify-center">
+                    <router-link :to="'/buy'" type="submit" class=" mt-6 pl-24 pr-24 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Checkout</router-link>
+                </div>
             </div>
         </div>
         
@@ -43,6 +28,14 @@
 </template>
 
 <script setup> 
+import basketCardVue from '../components/basketCard.vue';
+var storedItems = JSON.parse(localStorage.getItem('basket'));
 
+var price = 0;
+
+for (var i = 0; i < storedItems.length; i++) {
+    price += storedItems[i][0].price * storedItems[i][0].quantity;
+    console.log(storedItems[i][0].price);
+}
 
 </script>
