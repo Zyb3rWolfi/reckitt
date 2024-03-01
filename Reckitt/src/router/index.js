@@ -8,6 +8,7 @@ import lemsip from '../components/lemsip.vue'
 import gaviscon from '../components/gaviscon.vue'
 import bonjela from '../components/bonjela.vue'
 import productPage from '../views/product-page.vue'
+import buyPage from '../views/buy-now.vue'
 
 
 const routes = [
@@ -20,6 +21,11 @@ const routes = [
         path: '/product/:id',
         name: 'product',
         component: productPage
+    },
+    {
+        path: '/buy',
+        name: 'buy',
+        component: buyPage
     },
     {
         path: '/products/',

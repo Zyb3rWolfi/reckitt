@@ -1,6 +1,6 @@
 <template>
 
-<nav class="bg-white border-gray-200 dark:bg-gray-900 drop-shadow-md-b">
+<nav class="bg-white border-gray-200 dark:bg-gray-900 drop-shadow-md-b drop-shadow">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <router-link :to="'/'" class="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="https://reckitt.com/assets/wwbhjej5/headerlogo.svg" class="h-12" alt="Flowbite Logo" />
