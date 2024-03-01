@@ -9,6 +9,7 @@ import gaviscon from '../components/gaviscon.vue'
 import bonjela from '../components/bonjela.vue'
 import productPage from '../views/product-page.vue'
 import buyPage from '../views/buy-now.vue'
+import basketPage from '../views/basket.vue'
 
 
 const routes = [
@@ -26,6 +27,11 @@ const routes = [
         path: '/buy',
         name: 'buy',
         component: buyPage
+    },
+    {
+        path: '/basket',
+        name: 'basket',
+        component: basketPage
     },
     {
         path: '/products/',
