@@ -9,7 +9,10 @@
     <div class=" grid mx-auto grid-cols-3 justify-center mt-12 ml-4 mr-4">
         <div class=" col-start-1 col-span-2">
             <basketCardVue v-for="i in storedItems" :product="i"></basketCardVue>
-        
+            <div v-if="storedItems == null" class=" flex justify-center mx-auto text-xl mt-5">
+                <p>Basket is empty</p>
+
+            </div>
         </div>
         <div class=" col-start-3">
             <div class="max-w-4xl p-6 bg-white border col-span-2 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -32,10 +35,12 @@ import basketCardVue from '../components/basketCard.vue';
 var storedItems = JSON.parse(localStorage.getItem('basket'));
 
 var price = 0;
+if (storedItems != null) {
+    for (var i = 0; i < storedItems.length; i++) {
+        price += storedItems[i][0].price * storedItems[i][0].quantity;
+        console.log(storedItems[i][0].price);
+    }
 
-for (var i = 0; i < storedItems.length; i++) {
-    price += storedItems[i][0].price * storedItems[i][0].quantity;
-    console.log(storedItems[i][0].price);
 }
 
 </script>

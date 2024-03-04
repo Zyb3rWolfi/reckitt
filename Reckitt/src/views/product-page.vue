@@ -1,10 +1,10 @@
 <template>
-    <div class=" min-w-96 h-80 grid grid-cols-2">
-        <div style="border-color: #ff007f;" class=" border-b-2 col-start-1"> 
+    <div class=" min-w-96 w-full grid grid-cols-1 grid-rows-2 lg:grid-cols-2">
+        <div style="border-color: #ff007f;" class=" border-b-2 col-start-1 row-start-2 lg:row-start-1"> 
             <img :src="product[0].image" width="40%" height="40%" class="mx-auto"/>
         </div>
 
-        <div class=" col-start-2 " style="background-color: #ff007f;">
+        <div class=" col-start-2 row-start-1" style="background-color: #ff007f;">
             <div class=" container"> 
                 <h2 class=" text-4xl text-white m-5" style=" text-transform:uppercase">{{product[0].name}}</h2>
                 <h3 class=" m-5 text-white">{{product[0].description}}</h3>
