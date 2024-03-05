@@ -1,20 +1,20 @@
 <template>
     <div class="relative">
-        <img width="100%" class="" src="../../public/banner.png">
+        <img alt="banner" width="100%" class="h-36 lg:h-full" src="../../public/banner.png">
         <div class="absolute inset-0 flex items-center text-6xl justify-center text-white">
-            <h1 class="">YOUR BASKET</h1>
+            <h1 class="lg:text-6xl text-2xl">YOUR BASKET</h1>
         </div>
     </div>
 
-    <div class=" grid mx-auto grid-cols-3 justify-center mt-12 ml-4 mr-4">
-        <div class=" col-start-1 col-span-2">
+    <div class="  grid mx-auto lg:grid-cols-3 lg:grid-rows-1 grid-rows-3 justify-center mt-12 lg:ml-20 lg:mr-20 ml-5 mr-5 gap-5">
+        <div class=" lg:col-start-1 lg:col-span-2">
             <basketCardVue v-for="i in storedItems" :product="i"></basketCardVue>
             <div v-if="storedItems == null" class=" flex justify-center mx-auto text-xl mt-5">
                 <p>Basket is empty</p>
 
             </div>
         </div>
-        <div class=" col-start-3">
+        <div class=" lg:col-start-3">
             <div class="max-w-4xl p-6 bg-white border col-span-2 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             
                 <p class="text-xl"> <strong>Subtotal: £{{price}}</strong></p>

@@ -1,10 +1,10 @@
 <template>
-    <div class=" min-w-96 w-full grid grid-cols-1 grid-rows-2 lg:grid-cols-2">
-        <div style="border-color: #ff007f;" class=" border-b-2 col-start-1 row-start-2 lg:row-start-1"> 
-            <img :src="product[0].image" width="40%" height="40%" class="mx-auto"/>
+    <div class=" min-h-72  w-full grid grid-cols-1 grid-rows-2 lg:grid-rows-1 lg:grid-cols-2">
+        <div style="border-color: #ff007f;" class=" border-b-2 col-start-1 row-start-2  lg:row-start-1"> 
+            <img alt="Banner" :src="product[0].image" width="30%" height="30%" class="mx-auto my-auto mt-10 lg:mt-10"/>
         </div>
 
-        <div class=" col-start-2 row-start-1" style="background-color: #ff007f;">
+        <div class=" col-start-1 lg:col-start-2 row-start-1" style="background-color: #ff007f;">
             <div class=" container"> 
                 <h2 class=" text-4xl text-white m-5" style=" text-transform:uppercase">{{product[0].name}}</h2>
                 <h3 class=" m-5 text-white">{{product[0].description}}</h3>
@@ -28,8 +28,8 @@
     </div>
     <div>
         <h2 class="text-4xl text-center mt-10">Product Details</h2>
-        <div class="grid grid-cols-4">
-            <h3 class="col-start-2 text-xl mt-5 mb-2"><strong>description</strong></h3>
+        <div class="grid lg:grid-cols-4 grid-cols-1 ml-6 mr-6">
+            <h3 class="lg:col-start-2 text-xl mt-5 mb-2"><strong>description</strong></h3>
             <span class="border col-start-2 col-span-2"></span>
             <p class=" mt-5 col-start-2 col-span-2">
                 -Suitable for babies from 3 months and weighing over 5 kg 
@@ -79,7 +79,7 @@
         </div>
     </div>
     <div class=" flex mx-auto justify-items-center justify-center mt-10">
-        <router-link :to="'/buy'" type="button" class=" min-w-38 max-w-38 text-white bg-gradient-to-t from-red-400 via-pink-400 to-pink-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">BUY NOW</router-link>
+        <router-link :to="'/buy'" @click="addToBasket" type="button" class=" min-w-38 max-w-38 text-white bg-gradient-to-t from-red-400 via-pink-400 to-pink-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">BUY NOW</router-link>
         <router-link :to="'/basket'" @click="addToBasket" type="button" class=" min-w-38 text-white bg-gradient-to-t from-red-400 via-pink-400 to-pink-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">ADD TO BASKET</router-link>
 
     </div>

@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-white rounded-lg dark:bg-gray-900 m-4 shadow-inner mt-24 w-full overflow-x-hidden">
+    <footer class="bg-white rounded-lg dark:bg-gray-900  shadow-inner mt-24 w-full overflow-x-hidden">
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div class="flex items-center justify-center">
                 <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3">

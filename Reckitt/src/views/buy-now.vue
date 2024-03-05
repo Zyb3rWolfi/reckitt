@@ -1,13 +1,13 @@
 <template>
     <div class="relative">
-        <img width="100%" class="" src="../../public/banner.png">
+        <img alt="banner" width="100%" class="h-36 lg:h-full" src="../../public/banner.png">
         <div class="absolute inset-0 flex items-center text-6xl justify-center text-white">
-            <h1 class="">PAYMENT</h1>
+            <h1 class="lg:text-6xl text-2xl">PAYMENT</h1>
         </div>
     </div>
 
     
-    <div class="flex justify-center mx-auto items-center mt-10">
+    <div class="flex justify-center mx-auto  mt-10 ">
 
         <ol class="flex items-center w-1/4">
             <li class="flex w-full items-center text-blue-600 dark:text-blue-500 after:content-[''] after:w-full after:h-1 after:border-b after:border-blue-100 after:border-4 after:inline-block dark:after:border-blue-800">
@@ -45,7 +45,7 @@
     </div>
 
 
-    <div class="max-w-md mx-auto mt-10" v-show="setupNumber == 0">
+    <div class="lg:max-w-md max-w-sm mx-auto mt-10 " v-show="setupNumber == 0">
         <div class="grid md:grid-cols-2 md:gap-6">
         <div class="relative z-0 w-full mb-5 group">
             <input type="text" name="floating_first_name" id="floating_first_name" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
@@ -95,7 +95,7 @@
     
 
 
-    <div class="max-w-md mx-auto mt-10" v-show="setupNumber == 1">
+    <div class="lg:max-w-md max-w-sm mx-auto mt-10" v-show="setupNumber == 1">
         <div class="relative z-0 w-full mb-5 group">
             <input type="text" name="floating_last_name" id="floating_last_name" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
             <label for="floating_last_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Card Number</label>
