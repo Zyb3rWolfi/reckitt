@@ -32,49 +32,19 @@
             <h3 class="lg:col-start-2 text-xl mt-5 mb-2"><strong>description</strong></h3>
             <span class="border col-start-2 col-span-2"></span>
             <p class=" mt-5 col-start-2 col-span-2">
-                -Suitable for babies from 3 months and weighing over 5 kg 
-                <br>-Up to 8 hours pain and fever relief 
-                <br>-Starts to get to work in 15 minutes to relieve fever 
-                <br>-Free from artificial colours and flavours 
-                <br>-Syringe for accurate and easy dosing 
-                
-                <br>Nurofen for Children Cold Pain & Fever Relief Suspension Strawberry 100ml is a liquid ibuprofen suspension that provides pain and fever relief for babies and children. 
-                It provides fever relief that lasts for up to 8 hours and is available in both Strawberry and Orange flavours.
-                
-                <br>For over 30 years, Nurofen has helped to provide millions of people with pain relief. We are experienced in children’s fever and pain relief, and we are here to help.
-                Nurofen for Children contains Ibuprofen which has anti-inflammatory properties and provides effective relief from fever and general pain.Our liquid formula does not need to be taken with food or water.
+            
+                {{product[0].description_long}}
             </p>
-
             <h3 class="col-start-2 text-xl mt-5 mb-2"><strong>usage</strong></h3>
             <span class="border col-start-2 col-span-2"></span>
             <p class=" mt-5 col-start-2 col-span-2">
-                -Suitable for babies from 3 months and weighing over 5 kg 
-                <br>-Up to 8 hours pain and fever relief 
-                <br>-Starts to get to work in 15 minutes to relieve fever 
-                <br>-Free from artificial colours and flavours 
-                <br>-Syringe for accurate and easy dosing 
-                
-                <br>Nurofen for Children Cold Pain & Fever Relief Suspension Strawberry 100ml is a liquid ibuprofen suspension that provides pain and fever relief for babies and children. 
-                It provides fever relief that lasts for up to 8 hours and is available in both Strawberry and Orange flavours.
-                
-                <br>For over 30 years, Nurofen has helped to provide millions of people with pain relief. We are experienced in children’s fever and pain relief, and we are here to help.
-                Nurofen for Children contains Ibuprofen which has anti-inflammatory properties and provides effective relief from fever and general pain.Our liquid formula does not need to be taken with food or water.
+                {{ product[0].usage}}
             </p>
 
             <h3 class="col-start-2 text-xl mt-5 mb-2"><strong>warnings</strong></h3>
             <span class="border col-start-2 col-span-2"></span>
             <p class=" mt-5 col-start-2 col-span-2">
-                -Suitable for babies from 3 months and weighing over 5 kg 
-                <br>-Up to 8 hours pain and fever relief 
-                <br>-Starts to get to work in 15 minutes to relieve fever 
-                <br>-Free from artificial colours and flavours 
-                <br>-Syringe for accurate and easy dosing 
-                
-                <br>Nurofen for Children Cold Pain & Fever Relief Suspension Strawberry 100ml is a liquid ibuprofen suspension that provides pain and fever relief for babies and children. 
-                It provides fever relief that lasts for up to 8 hours and is available in both Strawberry and Orange flavours.
-                
-                <br>For over 30 years, Nurofen has helped to provide millions of people with pain relief. We are experienced in children’s fever and pain relief, and we are here to help.
-                Nurofen for Children contains Ibuprofen which has anti-inflammatory properties and provides effective relief from fever and general pain.Our liquid formula does not need to be taken with food or water.
+            {{ product[0].warning }}
             </p>
         </div>
     </div>
